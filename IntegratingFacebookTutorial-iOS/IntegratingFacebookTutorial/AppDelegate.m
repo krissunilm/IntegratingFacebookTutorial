@@ -15,8 +15,8 @@
     
     // ****************************************************************************
     // Fill in with your Parse credentials:
-    // ****************************************************************************
-    // [Parse setApplicationId:@"your_application_id" clientKey:@"your_client_key"];
+    //****************************************************************************
+     [Parse setApplicationId:@"JD85AnynsIaGnktICup7VHvWStfDrXvLf67YJaWS" clientKey:@"Ckh0RL72d5EIEiVcJn0hl1vElZDXafnZFKNHXrWN"];
 
     // ****************************************************************************
     // Your Facebook application id is configured in Info.plist.
@@ -35,7 +35,10 @@
 // ****************************************************************************
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
     return [PFFacebookUtils handleOpenURL:url];
-} 
+}
+
+
+
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     /*
